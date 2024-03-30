@@ -17,6 +17,8 @@ class ContactsViewController: UITableViewController {
         super.viewDidLoad()
         fetch()
         tableView.reloadData()
+        
+//        print("crud operation")
     }
 
     //MARK: - Data Source
